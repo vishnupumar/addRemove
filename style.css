@@ -1,0 +1,12 @@
+.listOfNames{
+    list-style: none;
+    width: 45%;
+}
+.listItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(230, 221, 221);
+}

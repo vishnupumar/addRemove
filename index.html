@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 8 Add Remove</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inputField">
+                <span>Enter Name : </span>
+                <input type="text" id="input-name" value="" required/>
+                <select name="gender" id="gender" required >
+                    <option value="">Select..</option>
+                    <option class="gender" value="MALE">MALE</option>
+                    <option class="gender" value="FEMALE">FEMALE</option>
+                </select>
+                <button type="submit" class="todo-btn">Submit</button>
+        </div>
+        <div id ="filter-gender">
+            <label for="MALE">MALE</label><input value="MALE" name="gender-fil" type="radio">
+            <label for="FEMALE">FEMALE</label><input value="FEMALE" name="gender-fil" type="radio">      
+            <label for="ALL">ALL</label><input value="ALL" checked name="gender-fil" type="radio">
+        </div>
+        <div class="listNames">
+            <ul class="listOfNames">
+          </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
